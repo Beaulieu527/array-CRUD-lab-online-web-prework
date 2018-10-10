@@ -7,28 +7,23 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  numbers << 5
-  puts numbers.inspect
+  numbers << element
 end
 
 def add_element_to_start_of_array(array, element)
   numbers.unshift(7)
-  puts numbers.inspect
 end
 
 def remove_element_from_end_of_array(array)
  4 = numbers.pop
- puts numbers.inspect
 end
 
 def remove_element_from_start_of_array(array)
   1 = numbers.shift
-  puts numbers.inspect
 end
 
 def retrieve_element_from_index(array, index_number)
   numbers[index_number]
-  puts numbers.inspect
 end
 
 def retrieve_first_element_from_array(array)
